@@ -4,15 +4,17 @@
 
 
 h1{
-    font-family: Anton, sans-serif;
-    font-size: 100px;;
+    font-family: 'Alegreya SC', serif;
+    font-size: 90px;
     margin: auto;
     text-align: center;
-    
+text-decoration-color: white;
+  background-color: grey;
+
 }
 
 p{
     font-size: 20px;
     font-family: Pacifico, sans-serif;
-    
+
 }
