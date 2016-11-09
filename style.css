@@ -1,41 +1,21 @@
-#zenintro{
-    background-color: azure;
-}
+
 *{
   box-sizing: border-box;
 }
 
 h1{
     font-family: 'Alegreya SC', serif;
-    font-size: 90px;
-    margin: auto;
-    text-align: center;
-
-  background-color: grey;
-
+    font-size: 6vw;
 }
 
 p{
-    font-size: 20px;
+    font-size: 16px;
     font-family: Pacifico, sans-serif;
 
 }
-
-
-
-
-.preamble{
-
-  border: solid black;
-display:block;
-width:90%;
+.road{
+  width:90%;
 }
-img{
-display:block;
-width:90%;
-margin:auto;
-}
-
 
 
 
@@ -47,15 +27,37 @@ margin:auto;
     box-sizing: border-box;
   }
 
-  .preamble{
-  float:right;
-    border: solid black;
-    width:80%;
-    background-color: blue;
+.preamble{
+    text-align: center;
+    margin-left: 350px;
+    height:100%;
+    overflow: hidden;
+
   }
-  img{
-  float:left;
-    width: 20%;
+  .road{
+    float:left;
+    width:350px;
   }
 
-}
+    .container1{
+      height:350px;
+      width:100%;
+    }
+
+    .container2{
+      height:350px;
+      width:100%;
+      margin-top: 20px;
+    }
+
+    .main-supporting{
+      text-align: center;
+      margin-right: 350px;
+      height:100%;
+      overflow: hidden;
+
+    }
+    .support{
+      float:right;
+      width:350px;
+    }
