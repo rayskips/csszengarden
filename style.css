@@ -18,6 +18,9 @@ text-align: center;
   width: 80%;
   margin:auto;
 }
+img{
+max-width: 100%;
+}
 /* Working on header. Works in codepen at
 http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
 
@@ -35,15 +38,64 @@ http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
       left: 0;
       position: absolute;
       text-align:center;
-      top: 15%;
+      top: 5%;
       width: 100%;
       color:white;
       font-size:30px;
   }
+  /*third section*/
+
+  #zen-participation{
+      position:relative;
+      text-align:center;
+
+  }
+  .test{
+    width:100%;
+
+  }
+  .parttext{
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 8%;
+    width: 100%;
+    color:white;
+    font-size:30px;
+  }
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 600px) {
+  /* Working on header. Works in codepen at
+  http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
 
+    .intro {
+        position:relative;
+        text-align:center;
+
+    }
+    .hero{
+      width: 100%;
+      margin:auto;
+
+    }
+    h1 {
+        left: 0;
+        position: absolute;
+        text-align:center;
+        top: 15%;
+        width: 100%;
+        color:white;
+        font-size:30px;
+    }
 
 /*first section*/
 .preamble{
@@ -51,6 +103,7 @@ http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
     margin-left: 350px;
     height:100%;
     overflow: hidden;
+    background-color: linen;
 
   }
   .road{
@@ -67,7 +120,6 @@ http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
       height:350px;
       width:100%;
       margin-top: 20px;
-      background-color: linen;
     }
 
     .main-supporting{
@@ -81,4 +133,22 @@ http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
       float:right;
       width:350px;
     }
+/*third section*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
