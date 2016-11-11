@@ -15,7 +15,7 @@ text-align: center;
 }
 
 .page-wrapper{
-  width: 80%;
+  width: 100%;
   margin:auto;
 }
 img{
@@ -115,11 +115,18 @@ http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
       height:350px;
       width:100%;
     }
+.texttoowide{
+  width:80%;
+  margin: auto;
+}
+
+
+
 /*second section*/
     .container2{
       height:350px;
       width:100%;
-      margin-top: 20px;
+
     }
 
     .main-supporting{
@@ -138,7 +145,25 @@ http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
 
 }
 
+.participation {
+    position:relative;
+    text-align:center;
 
+}
+.sidebar{
+  width: 100%;
+  margin:auto;
+
+}
+.parttext{
+    left: 0;
+    position: absolute;
+    text-align:center;
+    top: 35%;
+    width: 100%;
+    font-size:30px;
+    color:black;
+}
 
 
 
