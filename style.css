@@ -2,6 +2,10 @@
 *{
   box-sizing: border-box;
 }
+.page-wrapper{
+  width: 90%;
+  margin:auto;
+}
 
 h1{
     font-family: 'Alegreya SC', serif;
@@ -14,7 +18,8 @@ p{
 
 }
 .road{
-  width:90%;
+  width:80%;
+  margin:auto;
 }
 
 
@@ -27,20 +32,10 @@ p{
     box-sizing: border-box;
   }
 
-
-
-  .test{
-    display: table;
- width: 100%;
+  .page-wrapper{
+    width: 80%;
+    margin:center;
   }
-
-h1{
-  display: table-cell;
- text-align: center;
- vertical-align:middle;
- font-size: 50px;
-}
-
 
 .preamble{
     text-align: center;
