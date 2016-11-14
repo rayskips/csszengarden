@@ -1,179 +1,88 @@
-/* General Page Set Up */
+
+.page-wrapper{
+  width:80%;
+  text-align: center;
+  margin:auto;
+}
 *{
   box-sizing: border-box;
 }
-p{
-    font-size: 16px;
-    font-family: Pacifico, sans-serif;
-    text-align: center;
 
-}
+/*3 photos
+*/
 
-h3{
-text-align: center;
-
-}
-
-.page-wrapper{
-  width: 100%;
+.container{
+  width:100%;
   margin:auto;
+
 }
 img{
-max-width: 100%;
+  width:100%;
 }
-/* Working on header. Works in codepen at
-http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
-
-  .intro {
-      position:relative;
-      text-align:center;
-
-  }
-  .hero{
-    width: 100%;
-    margin:auto;
-
-  }
-  h1 {
-      left: 0;
-      position: absolute;
-      text-align:center;
-      top: 5%;
-      width: 100%;
-      color:white;
-      font-size:30px;
-  }
-  /*third section*/
-
-  #zen-participation{
-      position:relative;
-      text-align:center;
-
-  }
-  .test{
-    width:100%;
-
-  }
-  .parttext{
-    left: 0;
-    position:absolute;
-    text-align:center;
-    top: 8%;
-    width: 100%;
-    color:white;
-    font-size:30px;
+#zen-preamble{
+  width:29%;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+  margin-top:40px;
   }
 
+#zen-explanation{
+  width:40%;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
 
+}
+#zen-participation{
+  width:29%;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    margin-top:150px;
 
-
-
-
-
-
-
-
-@media (min-width: 600px) {
-  /* Working on header. Works in codepen at
-  http://codepen.io/rayskips/pen/JbGrgE?editors=1100*/
-
-    .intro {
-        position:relative;
-        text-align:center;
-
-    }
-    .hero{
-      width: 100%;
-      margin:auto;
-
-    }
-    h1 {
-        left: 0;
-        position: absolute;
-        text-align:center;
-        top: 15%;
-        width: 100%;
-        color:white;
-        font-size:30px;
-    }
-
-/*first section*/
-.preamble{
-    text-align: center;
-    margin-left: 350px;
-    height:100%;
-    overflow: hidden;
-    background-color: linen;
-
-  }
-  .road{
-    float:left;
-    width:350px;
-  }
-
-    .container1{
-      height:350px;
-      width:100%;
-    }
-.texttoowide{
-  width:80%;
-  margin: auto;
 }
 
 
+/*benefits section*/
 
-/*second section*/
-    .container2{
-      height:350px;
-      width:100%;
+.cont1{
+  max-height:1200px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.hike{
+  width:60%;
+  float:right;
 
-    }
+}
+.feet{
+  width:20%;
+  margin-right:39%;
+  float:left;
+  margin:30px;
+}
 
-    .main-supporting{
-      text-align: center;
-      margin-right: 350px;
-      height:100%;
-      overflow: hidden;
-
-    }
-    .support{
-      float:right;
-      width:350px;
-    }
-/*third section*/
+.four{
+  float: left;
+  width:39%;
+  margin-top:15%;
+}
+.benefits{
+margin-right:20%;
+margin:30px;
 
 
 }
 
-.participation {
-    position:relative;
-    text-align:center;
+/*requirements section*/
+.feets{
+  width:39%;
+  float:right;
+  padding:20px;
+}
+.requirements{
+  margin-right: 40%;
 
 }
-.sidebar{
-  width: 100%;
-  margin:auto;
-
-}
-.parttext{
-    left: 0;
-    position: absolute;
-    text-align:center;
-    top: 35%;
-    width: 100%;
-    font-size:30px;
-    color:black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-  }
