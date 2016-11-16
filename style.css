@@ -2,14 +2,36 @@
 .page-wrapper{
   width:80%;
   margin:auto;
-  background-color: aliceblue;
+  
 }
 *{
   box-sizing: border-box;
 }
-img{
-  width:500px;
+.body{
+  background-color: aliceblue;
+  opacity: 0.5;
+  padding:20px;
 }
+h3{
+  font-size: 40px;
+  font-family: cursive;
+
+}
+h1{
+  font-family: h1;
+  letter-spacing: 4px;
+  font-size: 100px;
+  text-align: center;
+}
+@font-face {
+    font-family: h1;
+    src: url(Oranienbaum.ttf);
+}
+@font-face {
+    font-family: cursive;
+    src: url(Hello-Stockholm-Regular.ttf);
+}
+
 
 /*first*/
 .first{
@@ -38,6 +60,7 @@ img{
   top:100px;
   margin-bottom: 400px;
 
+
 }
 
 
@@ -47,16 +70,22 @@ img{
 
 }
 .participation{
-margin-bottom: 400px;
 width:40%;
+bottom:400px;
+left:55%;
+position: relative;
 }
 /*fourth*/
 .fourth{
   width:700px;
+  margin-top: -23%;
+  margin-bottom: 50px;
 }
 .benefits{
-margin-bottom: 400px;
 width:40%;
+position: relative;
+left:10%;
+bottom:100px;
 }
 
 /*fifth*/
@@ -66,6 +95,9 @@ width:40%;
   margin-left: 10%;
 }
 .requirements{
-  margin-bottom: 400px;
   width:40%;
+  position: relative;
+  bottom:750px;
+  left:50%;
+
 }
