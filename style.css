@@ -4,6 +4,26 @@
   margin:auto;
 }
 
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+
+
 *{
   box-sizing: border-box;
 }
@@ -38,7 +58,6 @@ h1{
 .first{
   width:50%;
   position: absolute;
-  left:10%;
   top:0;
 
 }
@@ -51,8 +70,7 @@ h1{
 }
 .preamble{
     position: relative;
-    margin-bottom: 1200px;
-    
+    display: inline-block;
 }
 
 /*second*/
@@ -60,8 +78,8 @@ h1{
 .second{
   width:50%;
   position: absolute;
-  right:10%;
-  top:0;
+ 
+  top:20px;
   
  
 }
@@ -72,9 +90,12 @@ h1{
   top:0px; 
   
 }
-.explanation{
+.explanation { 
  position: relative;
- 
+ display: inline-block;
+ background-color: aqua;
+height: 400px;
+
  
 
 }
