@@ -6,20 +6,6 @@
 
 
 
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
-
 
 
 
@@ -30,88 +16,93 @@
 .body{
   background-color: aliceblue;
   opacity: 0.5;
-  padding:20px;
+  padding:10px;
 }
 h3{
-  font-size: 40px;
-  font-family: cursive;
+  font-size: 70px;
+  font-family: HelloStockholm-Regular;
+  margin-bottom: -30px;
 
 }
 h1{
-  font-family: hello;
+  font-family: Oranienbaum;
   letter-spacing: 4px;
   font-size: 100px;
   text-align: center;
 }
 
 @font-face {
-    font-family: hello;
+    font-family: Oranienbaum;
     src: url(Oranienbaum.ttf);
 }
 @font-face {
-    font-family: cursive;
+    font-family: HelloStockholm-Regular;
     src: url(HelloStockholm-Regular.ttf);
+}
+img{
+  margin-top: 50px;
 }
 
 
 /*first*/
 .first{
-  width:50%;
-  position: absolute;
-  top:0;
+  height:600px;
+position: absolute;
+margin-left: 10%;
 
 }
 .body{
-  width:400px;
   position: absolute;
-  left:50%;
-  top:100px;
-
+    background-color: aliceblue;
+    opacity: 0.5;
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 50%;
+    padding:20px;
 }
 .preamble{
-    position: relative;
-    display: inline-block;
+  position: relative;
+  height: 600px;
+  margin-bottom: 30px;
 }
-
 /*second*/
 
 .second{
-  width:50%;
-  position: absolute;
- 
-  top:20px;
-  
- 
+  height:600px;
+position: absolute;
+margin-left:40%;
+
 }
 .body2{
-  width:400px;
-  position: absolute;
-  left:50%;
-  top:0px; 
-  
+position: absolute;
+  background-color: aliceblue;
+  opacity: 0.5;
+  margin-top: 10%;
+  width: 50%;
+  padding:20px;
 }
-.explanation { 
- position: relative;
- display: inline-block;
- background-color: aqua;
-height: 400px;
-
- 
-
+.explanation{
+  position: relative;
+  height: 600px;
 }
 
 
 /*third*/
 .third{
-  width:700px;
-
+  width:60%;
+margin-top: -600px;
 
 }
+.body3{
+  margin-top: 700px;
+margin-left: 40%;
+max-height: 300px;
+width:50%;
+background-color: aliceblue;
+opacity: 0.5;
+}
 .participation{
-width:40%;
-bottom:400px;
-left:55%;
-position: relative;
+  margin-top: 30px;
 }
 /*fourth*/
 .fourth{
