@@ -21,14 +21,23 @@
 h3{
   font-size: 70px;
   font-family: HelloStockholm-Regular;
-  margin-bottom: -30px;
-
+  margin-bottom: -20px;
+  margin-top: -80px;
 }
 h1{
   font-family: Oranienbaum;
   letter-spacing: 4px;
   font-size: 100px;
   text-align: center;
+  margin-bottom: -20px;
+}
+
+h2{
+  font-family:HelloStockholm-Regular;
+  font-size: 50px;
+}
+p{
+  font-family: georgia;
 }
 
 @font-face {
@@ -43,21 +52,34 @@ img{
   margin-top: 50px;
 }
 
+/*banner*/
+header{
+  text-align: center;
+  margin:auto;
+  width:60%;
+
+}
+ .summary{
+   text-align: center;
+   margin:auto;
+   width:60%;
+ }
+
 
 /*first*/
 .first{
   height:600px;
 position: absolute;
-margin-left: 10%;
 
 }
 .body{
   position: absolute;
     background-color: aliceblue;
     opacity: 0.5;
-    margin-top: 10%;
-    margin-left: 40%;
-    width: 50%;
+    margin-top: 15%;
+    right:0;
+    margin-right: 10%;
+    width: 60%;
     padding:20px;
 }
 .preamble{
@@ -66,43 +88,43 @@ margin-left: 10%;
   margin-bottom: 30px;
 }
 /*second*/
-
 .second{
   height:600px;
 position: absolute;
-margin-left:40%;
-
+right:0;
 }
 .body2{
 position: absolute;
   background-color: aliceblue;
   opacity: 0.5;
-  margin-top: 10%;
-  width: 50%;
+  margin-top: 15%;
+  margin-left:10%;
+  width: 60%;
   padding:20px;
 }
 .explanation{
   position: relative;
   height: 600px;
+  position: relative;
 }
-
-
 /*third*/
 .third{
-  width:60%;
-margin-top: -600px;
-
+  height:400px;
+  position: absolute;
 }
 .body3{
-  margin-top: 700px;
-margin-left: 40%;
-max-height: 300px;
+right:0;
+margin-right:10%;
 width:50%;
 background-color: aliceblue;
 opacity: 0.5;
+position: absolute;
+margin-top: 15%;
 }
 .participation{
   margin-top: 30px;
+  height:400px;
+  position: relative;
 }
 /*fourth*/
 .fourth{
