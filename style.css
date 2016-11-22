@@ -329,6 +329,7 @@ img{
   bottom: 0;
   position: relative;
 margin:auto;
+width: 100%;
 align-content: center;
 overflow: scroll;
 font-size: 15px;
