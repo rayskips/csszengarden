@@ -39,20 +39,20 @@ margin: auto;
 
 @font-face {
     font-family: Oranienbaum;
-    src: url(Oranienbaum.ttf);
+    src: url(Assets/Oranienbaum.ttf);
 }
 @font-face {
     font-family: HelloStockholm-Regular;
-    src: url(HelloStockholm-Regular.otf);
+    src: url(Assets/HelloStockholm-Regular.otf);
   }
 
   @font-face {
     font-family: cafe;
-    src: url(cafe.otf)
+    src: url(Assets/cafe.otf)
   }
   @font-face {
     font-family: cake;
-    src: url(cake.ttf)
+    src: url(Assets/cake.ttf)
   }
 
   /*banner*/
