@@ -19,11 +19,12 @@ h1{
   box-sizing: border-box;
 }
 p{
-  font-family: georgia;
+  font-family: arial;
 }
 #css-zen-garden{
 width:90%;
 margin: auto;
+overflow: scroll;
 }
 
 @font-face {
