@@ -24,7 +24,6 @@ p{
 #css-zen-garden{
 width:90%;
 margin: auto;
-overflow: scroll;
 }
 
 @font-face {
@@ -107,13 +106,14 @@ overflow: scroll;
 
 .wrapper{
   height:200px;
-  font-size: 10px;
+  font-size: 8px;
   bottom: 0;
   position: relative;
 margin:auto;
 align-content: center;
 background-color: aliceblue;
 width:100%;
+overflow: scroll;
 
 
 }
